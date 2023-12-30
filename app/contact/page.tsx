@@ -11,9 +11,9 @@ import React from "react";
 /**
  * Each page can have different metadata
  */
-export const metadata: Metadata = {
-  title: 'Next.js',
-}
+// export const metadata: Metadata = {
+//   title: 'Next.js',
+// }
 
 /**
  * app/contact/page.tsx
