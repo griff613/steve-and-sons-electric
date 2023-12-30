@@ -1,11 +1,13 @@
 import React from "react";
 import Link from "next/link";
-import Logo from "./navbar/Logo";
-import Button from "./navbar/Button";
+import Logo from "./Logo";
+import Button from "./Button";
 
-export default function Navbar() {
+const Navbar = () => {
+	console.log("hi")
   return (
-    <div className="w-full h-20 bg-emerald-800 sticky top-0">
+    <>
+      <div className="w-full h-20 bg-emerald-800 sticky top-0">
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
             <Logo />
@@ -30,5 +32,8 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+    </>
   );
-}
+};
+
+export default Navbar;
