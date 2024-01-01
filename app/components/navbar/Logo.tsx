@@ -37,7 +37,7 @@ const Logo = () => {
 //TODO make global variables for logo width and height.
   return (
     <>
-      <Link href="/" style={{ display: showButton ? "none" : "block" }}>
+      <Link href="/home" style={{ display: showButton ? "none" : "block" }}>
         <Image
           src={ssLogo}
           alt="Logo"
